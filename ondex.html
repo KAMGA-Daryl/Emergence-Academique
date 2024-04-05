@@ -1,0 +1,69 @@
+
+<?php
+   session_start();
+  include("php/config.php");
+  if(isset($_SESSION['valid'])){
+    header("Location: index.php");
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="otyle.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <a href="https://wa.me/qr/V3JP7NWGVVGGG1 "><i class='bx bxl-whatsapp'></i></a>
+    
+    
+     <a href="https://www.fb.com/l/6lp1kJRRR"><i class='bx bxl-facebook'></i></a>
+    <a href="https://Emergenceacademique9@gmail.com"><i class='bx bxl-gmail'></i></a>
+    <i class='bx bxl-tiktok'></i>
+    <i class='bx bxl-twitter' ></i>
+    <i class='bx bxl-instagram' ></i>
+    
+
+    <title>Emergence Academique</title>
+<body class="container">
+<header>
+
+    <img src="images\emg.jpg" alt="" width="80" height="80">
+
+    <a href="#" class="logo"><span><h6>Emergence Academique </h6></span></a>
+    
+    
+    <div class="ArticleToggle" onclick="toggleArticle();"></div>
+    <ul class="navbar">
+        
+        <li><a href="#banniere" onclick="toggleArticle();"><a href="Accueil.html">Accueil</a></a></li>
+        <li><a href="#apropos" onclick="toggleArticle();" ><a href="propo.html">Apropos</a></a></li>
+        <li><a href="#Service" onclick="toggleArticle();">Services</a></li>
+        <li><a href="#Projet" onclick="toggleArticle();">Projet</a></li>
+        <li><a href="#contact" onclick="toggleArticle();"><a href="contact.html">Contact</a></a></li>
+        
+        
+        <a href="https://wa.me/qr/V3JPNWGVVGGG1"><i class='bx bxl-whatsapp'></i></a>
+        <a href=""><i class='bx bxl-tiktok'></i></a>
+        <a href="https://www.fb.com/l/6lp1kJRRR"><i class='bx bxl-facebook'></i></a>
+        
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <br><br><br><br>
+        <h2>Emergence Academique</h2>
+        <h3>Le centre de préparation au concours Émergence Académique a pour mission d'accompagner les étudiants dans leur préparation aux concours d'entrée dans les grandes écoles et universites .
+</h3>
+        <a href="#" class="btn1">En savoir plus</a>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</body>
